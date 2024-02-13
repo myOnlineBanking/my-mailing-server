@@ -1,0 +1,10 @@
+POST https://my-api-gateway-t.herokuapp.com/Mailing/sendemail
+Content-Type: application/json
+
+{
+  "emailReceiver": "malika@gmail.com",
+  "subject": "OTP",
+  "content": "1234"
+}
+
+###
